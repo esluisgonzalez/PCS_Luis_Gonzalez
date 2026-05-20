@@ -1,0 +1,8 @@
+Per quanto riguarda gli algoritmi bubble sort, selection sort, insertion sort, merge sort e quicksort, dai tempi misurati con
+new_measure_sorts.cpp noto che l'algoritmo più veloce tra i quadratici è insertion sort per dimensioni fino a circa n = 32 
+mentre per n >= 64 l'algoritmo quicksort diventa più veloce degli algoritmi quadratici. Aggiorno il file sorts.hpp con la 
+versione modificata di quicksort sotto la sezione ALGORITMO QUICKSORT (MODIFICATO)
+
+Per quanto riguarda la misurazione dei tempi usando new_measure_sorts.cpp, si osserva che insertion sort rimane l'algoritmo più 
+veloce per dimensioni piccole, mentre per n > 32 il quicksort modificato risulta in media leggermente più veloce del quicksort 
+originale. Nonostante ciò std::sort della STL rimane quello più veloce in assoluto
